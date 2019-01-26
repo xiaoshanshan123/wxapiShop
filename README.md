@@ -1,4 +1,51 @@
-ThinkPHP 5.0
+微信小程序
+
+异常处理的流程:
+        抛出 HTTP 异常
+throw new \think\exception\HttpException(404, '异常消息', null, [参数]);
+
+999 未知错误
+1 开头为通用错误
+2 商品类错误
+3 主题类错误
+4 Banner 类错误
+5 类目类错误
+6 用户类错误
+7 订单类错误
+
+
+Handle 异常处理类 render方法
+
+
+先有想法，在寻找“工具”，而不是反过来
+
+依赖或者包管理
+第三方主键：composer .npm .pip
+
+
+路由两种编写方法：
+1.首先引入route类
+
+PATH_INFO  
+
+混合模式
+// 是否强制使用路由
+    'url_route_must'         => false,
+   一般使用api ，尽量开启
+
+
+参数校验层
+
+
+Api 版本的闭合原则
+
+1.在路由中将需要动态的
+
+关联模型
+有外键在表中使用belongTO 
+没有外键但是关联
+
+
 ===============
 
 [![Total Downloads](https://poser.pugx.org/topthink/think/downloads)](https://packagist.org/packages/topthink/think)
