@@ -63,4 +63,18 @@ class BaseValidate extends Validate
 
     }
 
+
+    protected function isEnpty($value,$rule='',$data ='',$field = ''){
+
+        if(empty($value)){
+
+            return false;
+
+        }else{
+            
+            return true;
+        }
+
+    }
+
 }
