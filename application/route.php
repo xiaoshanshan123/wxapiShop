@@ -19,4 +19,10 @@ Route::get('api/:version/theme/:id','api/:version.Theme/getComplex');
 
 Route::get('api/:version/Product/recent','api/:version.Product/getRecent');
 
+//查询全部分类
+Route::get('api/:version/Category/all','api/:version.Category/getCategorys');
+
+//查询分类下的商品
+Route::get('api/:version/Product/byCateId','api/:version.Product/getAllInCategory');
+	
 Route::get('index','api/Index/index');

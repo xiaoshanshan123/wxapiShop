@@ -23,7 +23,7 @@ class Theme
          ->select($ids);
 
          if(!$data){
-            throw new Exception("Error Processing Request", 1);
+            throw new ThemeException();
          }
          return json_encode($data);  
 
@@ -38,9 +38,9 @@ class Theme
 
       $res =  (new IDZzs())->goCheck($id);
        if(!$res){
-            throw new ThemeException();
-       }
-       //echo $id;exit;
+            throw new ThemeException();}
+
+              //echo $id;exit;
 
        $data = ThemeModel::getDatabyId($id);
 

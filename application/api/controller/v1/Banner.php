@@ -27,7 +27,7 @@ class Banner
         //开闭原则
         (new validate\IDZzs())->goCheck();
 
-       $res = model('Banner')->getBannerId($id);
+        $res = model('Banner')->getBannerId($id);
         //$res = '';
 
         if(!$res){
