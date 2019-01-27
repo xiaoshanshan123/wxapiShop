@@ -1,0 +1,1712 @@
+[ 2019-01-25T12:24:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] 127.0.0.1/api/v1/theme/1 [运行时间：0.559032s][吞吐率：1.79req/s] [内存消耗：2,413.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getComplex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545917709,1546950447',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/theme/1' => '',
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getComplex[ D:\www\application\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053003s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.079005s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.043002s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:25:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] kk.cn/api/v1/theme/1 [运行时间：0.235013s][吞吐率：4.26req/s] [内存消耗：2,413.53kb] [文件加载：47]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getComplex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/theme/1' => '',
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getComplex[ D:\www\application\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.042003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.003001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:25:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] kk.cn/api/v1/theme/1 [运行时间：0.216012s][吞吐率：4.63req/s] [内存消耗：2,413.53kb] [文件加载：47]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getComplex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/theme/1' => '',
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getComplex[ D:\www\application\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.044003s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.007001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:28:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] kk.cn/api/v1/theme/1 [运行时间：0.239014s][吞吐率：4.18req/s] [内存消耗：2,413.53kb] [文件加载：47]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getComplex',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/theme/1' => '',
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getComplex[ D:\www\application\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.005001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:32:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ log ] kk.cn/api/v1/product/recent [运行时间：0.177010s][吞吐率：5.65req/s] [内存消耗：2,193.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent' => '',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.102006s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:33:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ log ] kk.cn/api/v1/product/recent [运行时间：0.177011s][吞吐率：5.65req/s] [内存消耗：2,188.18kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent' => '',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.100006s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 5 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:33:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/2
+[ log ] kk.cn/api/v1/product/recent/2 [运行时间：0.141008s][吞吐率：7.09req/s] [内存消耗：2,187.92kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/2' => '',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.083005s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 5 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:33:22+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/2
+[ log ] kk.cn/api/v1/product/recent/2 [运行时间：0.266016s][吞吐率：3.76req/s] [内存消耗：2,188.16kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/2' => '',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.217012s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 5 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:33:23+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/2.
+[ log ] kk.cn/api/v1/product/recent/2. [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：2,187.95kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/2' => '',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.068004s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 5 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:33:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/2
+[ log ] kk.cn/api/v1/product/recent/2 [运行时间：0.123007s][吞吐率：8.13req/s] [内存消耗：2,187.92kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/2' => '',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.058003s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 5 [ RunTime:0.008001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:33:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=2
+[ log ] kk.cn/api/v1/product/recent/?count=2 [运行时间：0.124007s][吞吐率：8.06req/s] [内存消耗：2,187.54kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.073004s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 2 [ RunTime:0.004001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:33:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=2
+[ log ] kk.cn/api/v1/product/recent/?count=2 [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：2,187.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.102005s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 2 [ RunTime:0.003001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:33:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=2
+[ log ] kk.cn/api/v1/product/recent/?count=2 [运行时间：0.140008s][吞吐率：7.14req/s] [内存消耗：2,187.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 2 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:33:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.136008s][吞吐率：7.35req/s] [内存消耗：2,188.04kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.013001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:34:19+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.107007s][吞吐率：9.35req/s] [内存消耗：2,188.16kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.042002s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:39:05+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.279016s][吞吐率：3.58req/s] [内存消耗：1,022.55kb] [文件加载：29]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2beaa703-a823-45b5-855e-cdace10d4cb8',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'kk.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '$ex' (T_VARIABLE)[D:\www\application\api\controller\v1\Product.php:18]
+
+---------------------------------------------------------------
+[ 2019-01-25T12:39:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,023.06kb] [文件加载：29]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '$ex' (T_VARIABLE)[D:\www\application\api\controller\v1\Product.php:18]
+
+---------------------------------------------------------------
+[ 2019-01-25T17:19:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.072005s][吞吐率：13.89req/s] [内存消耗：1,023.06kb] [文件加载：29]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '$ex' (T_VARIABLE)[D:\www\application\api\controller\v1\Product.php:18]
+
+---------------------------------------------------------------
+[ 2019-01-25T17:19:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.191011s][吞吐率：5.24req/s] [内存消耗：2,231.17kb] [文件加载：43]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030002s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.002000s ]
+[ error ] [2]Division by zero[D:\www\application\api\controller\v1\Product.php:15]
+
+---------------------------------------------------------------
+[ 2019-01-25T17:21:23+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.130008s][吞吐率：7.69req/s] [内存消耗：2,231.17kb] [文件加载：43]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.078004s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.003000s ]
+[ error ] [2]Division by zero[D:\www\application\api\controller\v1\Product.php:15]
+
+---------------------------------------------------------------
+[ 2019-01-25T17:21:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.139008s][吞吐率：7.19req/s] [内存消耗：2,231.17kb] [文件加载：43]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.003000s ]
+[ error ] [2]Division by zero[D:\www\application\api\controller\v1\Product.php:15]
+
+---------------------------------------------------------------
+[ 2019-01-25T17:21:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.128007s][吞吐率：7.81req/s] [内存消耗：2,231.17kb] [文件加载：43]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.076004s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.003000s ]
+[ error ] [2]Division by zero[D:\www\application\api\controller\v1\Product.php:15]
+
+---------------------------------------------------------------
+[ 2019-01-25T17:21:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.190011s][吞吐率：5.26req/s] [内存消耗：2,187.32kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.128007s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T17:23:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,023.01kb] [文件加载：29]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ';', expecting ']'[D:\www\application\api\controller\v1\Product.php:17]
+
+---------------------------------------------------------------
+[ 2019-01-25T17:23:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,023.02kb] [文件加载：29]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ';', expecting ']'[D:\www\application\api\controller\v1\Product.php:17]
+
+---------------------------------------------------------------
+[ 2019-01-25T17:23:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,023.02kb] [文件加载：29]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ';', expecting ']'[D:\www\application\api\controller\v1\Product.php:17]
+
+---------------------------------------------------------------
+[ 2019-01-25T17:24:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.128007s][吞吐率：7.81req/s] [内存消耗：2,217.42kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.067003s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.003001s ]
+[ error ] [0]variable type error： array[D:\www\thinkphp\library\think\Response.php:312]
+
+---------------------------------------------------------------
+[ 2019-01-25T17:24:06+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.143008s][吞吐率：6.99req/s] [内存消耗：2,217.42kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.084005s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.003000s ]
+[ error ] [0]variable type error： array[D:\www\thinkphp\library\think\Response.php:312]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:22:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.201012s][吞吐率：4.97req/s] [内存消耗：2,217.42kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046002s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.084005s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.005000s ]
+[ error ] [0]variable type error： array[D:\www\thinkphp\library\think\Response.php:312]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:22:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.132008s][吞吐率：7.58req/s] [内存消耗：2,217.42kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.076004s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.003000s ]
+[ error ] [0]variable type error： array[D:\www\thinkphp\library\think\Response.php:312]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:23:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：2,188.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.004001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:23:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,188.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.021002s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:23:32+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=0.1
+[ log ] kk.cn/api/v1/product/recent/?count=0.1 [运行时间：0.173010s][吞吐率：5.78req/s] [内存消耗：2,203.17kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '0.1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc [ RunTime:0.056004s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:23:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=1000
+[ log ] kk.cn/api/v1/product/recent/?count=1000 [运行时间：0.115006s][吞吐率：8.70req/s] [内存消耗：2,203.28kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '1000',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 1000 [ RunTime:0.012001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:23:58+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=10
+[ log ] kk.cn/api/v1/product/recent/?count=10 [运行时间：0.153009s][吞吐率：6.54req/s] [内存消耗：2,192.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '10',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.092006s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:24:22+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=3
+[ log ] kk.cn/api/v1/product/recent/?count=3 [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：2,188.23kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8b7b9eca-5369-4bf7-88a6-354639520f6c',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'kk.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.031001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.003001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:24:28+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=0.1
+[ log ] kk.cn/api/v1/product/recent/?count=0.1 [运行时间：0.120007s][吞吐率：8.33req/s] [内存消耗：2,202.93kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e91d58be-82bb-43d7-906e-19934fad97de',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'kk.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '0.1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.065003s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc [ RunTime:0.004001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:24:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=1000
+[ log ] kk.cn/api/v1/product/recent/?count=1000 [运行时间：0.129007s][吞吐率：7.75req/s] [内存消耗：2,203.01kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1f22b1f6-1829-4b26-82fa-4e8b06a83aa1',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'kk.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '1000',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.073005s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 1000 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:25:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=10
+[ log ] kk.cn/api/v1/product/recent/?count=10 [运行时间：0.152009s][吞吐率：6.58req/s] [内存消耗：2,191.73kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '383f0bfe-2635-45ab-9d5d-98b778598443',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'kk.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '10',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:33:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=10
+[ log ] kk.cn/api/v1/product/recent/?count=10 [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,192.25kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '10',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.029001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.003001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:33:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=10
+[ log ] kk.cn/api/v1/product/recent/?count=10 [运行时间：0.081004s][吞吐率：12.35req/s] [内存消耗：2,192.25kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '10',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:33:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=10
+[ log ] kk.cn/api/v1/product/recent/?count=10 [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：2,191.73kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a5d2a795-8c07-45fa-a6d5-108930f19e09',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'kk.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '10',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.005001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:33:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=10
+[ log ] kk.cn/api/v1/product/recent/?count=10 [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：2,191.73kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '897cf86e-6a70-4c5a-b040-72350b77ed8c',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'kk.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '10',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.005000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:34:03+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=10
+[ log ] kk.cn/api/v1/product/recent/?count=10 [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：2,191.73kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c5b6a07b-61ed-4302-8a7b-3fe895875410',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'kk.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '10',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:35:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=10
+[ log ] kk.cn/api/v1/product/recent/?count=10 [运行时间：0.080004s][吞吐率：12.50req/s] [内存消耗：2,192.31kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '10',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:35:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=10
+[ log ] kk.cn/api/v1/product/recent/?count=10 [运行时间：0.074005s][吞吐率：13.51req/s] [内存消耗：2,192.31kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '10',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:35:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=10
+[ log ] kk.cn/api/v1/product/recent/?count=10 [运行时间：0.099005s][吞吐率：10.10req/s] [内存消耗：2,192.31kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kk.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '10',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.024001s ]
+
+---------------------------------------------------------------
+[ 2019-01-25T20:35:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent/?count=10
+[ log ] kk.cn/api/v1/product/recent/?count=10 [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：2,191.80kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ee46ca8e-9eae-44ef-be4a-6cf427014458',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'kk.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/api/v1/product/recent/' => '',
+  'count' => '10',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRecent[ D:\www\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------

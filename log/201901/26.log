@@ -1,0 +1,14 @@
+[ 2019-01-26T11:16:22+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] kk.cn/api/v1/banner/1 [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,034.63kb] [文件加载：30]
+[ error ] [64]Namespace declaration statement has to be the very first statement in the script[F:\www\application\api\controller\v1\Banner.php:9]
+[ error ] Namespace declaration statement has to be the very first statement in the script
+
+---------------------------------------------------------------
+[ 2019-01-26T11:31:03+08:00 ] [ error ] [0]id为正整数
+[ error ] id为正整数
+
+---------------------------------------------------------------
+[ 2019-01-26T11:31:10+08:00 ] [ error ] [0]id为正整数
+[ error ] id为正整数
+
+---------------------------------------------------------------

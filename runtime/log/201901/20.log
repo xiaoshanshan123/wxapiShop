@@ -1,0 +1,3785 @@
+[ 2019-01-20T10:40:40+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] 127.0.0.1/ [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：785.04kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'admin_username=admin; PHPSESSID=hkhb23h04328lvfug7give17c2; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547950321; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1547950321',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T10:42:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] 127.0.0.1/index.php [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：784.33kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'admin_username=admin; PHPSESSID=hkhb23h04328lvfug7give17c2; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547950321; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1547950321',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T10:42:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] kk.cn/index.php [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：783.40kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T10:42:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] kk.cn/index.php [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：783.55kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T10:48:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] kk.cn/index.php [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：784.05kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T10:48:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] kk.cn/index.php [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：783.55kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T10:48:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] kk.cn/index.php [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：783.55kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T10:49:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api
+[ log ] kk.cn/index.php/api [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：784.08kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T12:55:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/hello
+[ log ] kk.cn/index.php/hello [运行时间：0.286016s][吞吐率：3.50req/s] [内存消耗：980.64kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T12:55:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/hello
+[ log ] kk.cn/index.php/hello [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：980.63kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:23:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/hello
+[ log ] kk.cn/index.php/hello [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：981.22kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:24:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/hello
+[ log ] kk.cn/index.php/hello [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：980.64kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:25:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/hello
+[ log ] kk.cn/index.php/hello [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：980.62kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:26:04+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] kk.cn/hello [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：983.79kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:26:05+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] kk.cn/hello [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：984.04kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:26:06+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] kk.cn/hello [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：984.04kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:26:07+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] kk.cn/hello [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：984.04kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:26:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/hello
+[ log ] kk.cn/index.php/hello [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：980.60kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:26:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/hello
+[ log ] kk.cn/index.php/hello [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：980.62kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:26:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/hello
+[ log ] kk.cn/index.php/hello [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：980.62kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:27:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/
+[ log ] kk.cn/index.php/index/ [运行时间：0.080004s][吞吐率：12.50req/s] [内存消耗：784.17kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:27:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/
+[ log ] kk.cn/index.php/api/ [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：980.02kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:27:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index
+[ log ] kk.cn/index.php/api/index [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：979.99kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:32:35+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] kk.cn/hello [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：983.91kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '4985e705-8b18-4887-bf10-b04829c01cc8',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:32:56+08:00 ] 127.0.0.1 127.0.0.1 POST /hello
+[ log ] kk.cn/hello [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：983.75kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '07a4bdf7-7f16-4084-8b11-567b2b3c8443',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:33:03+08:00 ] 127.0.0.1 127.0.0.1 PUT /hello
+[ log ] kk.cn/hello [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：983.84kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '04516ede-89b1-4455-b312-5bb89e86779f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:33:51+08:00 ] 127.0.0.1 127.0.0.1 PUT /hello
+[ log ] kk.cn/hello [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：786.12kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '91f02907-2e0e-4469-a24c-30d60ccd050b',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:43:02+08:00 ] 127.0.0.1 127.0.0.1 PUT /hello
+[ log ] kk.cn/hello [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：786.62kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '8f207820-7112-4fb0-8231-c46747953f7b',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:43:09+08:00 ] 127.0.0.1 127.0.0.1 POST /hello
+[ log ] kk.cn/hello [运行时间：0.096005s][吞吐率：10.42req/s] [内存消耗：1,002.45kb] [文件加载：33]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'c5220446-05d1-42f1-87af-3a50b6772789',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[F:\www\thinkphp\library\think\App.php:294]
+
+---------------------------------------------------------------
+[ 2019-01-20T13:43:41+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/123?name=fengyu&age=18
+[ log ] kk.cn/hello/123?name=fengyu&age=18 [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,003.14kb] [文件加载：33]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '650b905f-8de1-4385-9089-554abf48cfc8',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+  'age' => '18',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[F:\www\thinkphp\library\think\App.php:294]
+
+---------------------------------------------------------------
+[ 2019-01-20T13:44:05+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/123?name=fengyu
+[ log ] kk.cn/hello/123?name=fengyu [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,003.37kb] [文件加载：33]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------108122716244749923285754',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'fa5528d4-a949-459f-832a-d58334cc2678',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+  'age' => '18',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[F:\www\thinkphp\library\think\App.php:294]
+
+---------------------------------------------------------------
+[ 2019-01-20T13:45:00+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/123?name=fengyu
+[ log ] kk.cn/hello/123?name=fengyu [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：984.56kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------909657226651787032911118',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '0e60f547-a537-4621-b3b1-55c7d59e1f60',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+  'age' => '18',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:51:51+08:00 ] 127.0.0.1 127.0.0.1 POST /hello
+[ log ] kk.cn/hello [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：787.59kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------222194907106624419374819',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '67437621-2eb1-4271-b60e-5a8b6f4578cf',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+  'age' => '18',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:52:17+08:00 ] 127.0.0.1 127.0.0.1 POST /hello
+[ log ] kk.cn/hello [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：787.26kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '371',
+  'content-type' => 'multipart/form-data; boundary=--------------------------052708282696513236820590',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '1fad9e4e-18d8-496a-aba7-dc938c0e3d5f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+  'id' => '1',
+  'name' => 'fengyu',
+  'age' => '18',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:52:37+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/
+[ log ] kk.cn/hello/ [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：787.26kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '371',
+  'content-type' => 'multipart/form-data; boundary=--------------------------551957379259138942094009',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '23a6bd88-6172-4127-a8cd-cbbd946d2397',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/' => '',
+  'id' => '1',
+  'name' => 'fengyu',
+  'age' => '18',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:53:35+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/
+[ log ] kk.cn/hello/ [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：787.26kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '371',
+  'content-type' => 'multipart/form-data; boundary=--------------------------851776979162764193426148',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'b51e8234-ba09-47b4-8702-1c57cbb76051',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/' => '',
+  'id' => '1',
+  'name' => 'fengyu',
+  'age' => '18',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:53:56+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/
+[ log ] kk.cn/hello/ [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：787.26kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '371',
+  'content-type' => 'multipart/form-data; boundary=--------------------------341856443647870806028028',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '1aed9f4b-87d1-4a09-a8d2-bd45e068aa05',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/' => '',
+  'id' => '1',
+  'name' => 'fengyu',
+  'age' => '18',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:54:47+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/123?name=fengyu
+[ log ] kk.cn/hello/123?name=fengyu [运行时间：0.103005s][吞吐率：9.71req/s] [内存消耗：985.49kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------760726435591349924071384',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'ccaf3b29-f270-4df5-ae92-57e26b01691b',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+  'age' => '18',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:55:50+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/123?name=fengyu
+[ log ] kk.cn/hello/123?name=fengyu [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：984.69kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------846790545351426226288574',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'a6def5ad-cbfd-4b49-88dc-c0d49a8d9e05',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+  'age' => '18',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:55:57+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/123]
+[ log ] kk.cn/hello/123] [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：785.85kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => '123]',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '89f1e8ce-bea7-4512-981b-262474915137',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123]' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:56:01+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/123
+[ log ] kk.cn/hello/123 [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：785.81kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => '123',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'a99bf09a-1837-4a4a-8364-f474551cada4',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:56:14+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/123?name
+[ log ] kk.cn/hello/123?name [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：786.01kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => '123',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '23ca790b-2883-4cc8-b60e-da5161154adf',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:56:25+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/123?name=fengyu
+[ log ] kk.cn/hello/123?name=fengyu [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：785.96kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => '123',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '4e89ce5a-8c46-44e4-8c4a-56988093f450',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:56:50+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/123?name=fengyu
+[ log ] kk.cn/hello/123?name=fengyu [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：984.69kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------165419018560906125509374',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '30e3b4f9-b049-43d5-a80e-8c44bf93dc2b',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+  'age' => '18',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:57:21+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/123?name=fengyu
+[ log ] kk.cn/hello/123?name=fengyu [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：984.70kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------815911211588816304656663',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'bc15d432-0171-47aa-9d85-47b72f4dde05',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+  'age' => '18',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:57:29+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/123?name=fengyu
+[ log ] kk.cn/hello/123?name=fengyu [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：984.70kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------918517323744510621389216',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '1f7ab0f2-0f01-49ef-b99d-2b646946f9de',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+  'age' => '18',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:57:59+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/123?name=fengyu
+[ log ] kk.cn/hello/123?name=fengyu [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：984.70kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------929817058380065288153940',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '4a236b4d-e700-4089-acbe-be05387ae51e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+  'age' => '18',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:58:02+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/123?name=fengyu
+[ log ] kk.cn/hello/123?name=fengyu [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：984.70kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------718627727232044735535427',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '83ab9bbf-403c-4fea-aa4e-7960d59c9edb',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+  'age' => '18',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T13:58:11+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/123?name=fengyu
+[ log ] kk.cn/hello/123?name=fengyu [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：984.70kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------531217642949458413564952',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '583ac1ac-e89c-4c95-8a31-4f1b57ef489b',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/123' => '',
+  'name' => 'fengyu',
+  'age' => '18',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\www\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T14:33:41+08:00 ] 127.0.0.1 127.0.0.1 POST /banner/1
+[ log ] kk.cn/banner/1 [运行时间：0.348020s][吞吐率：2.87req/s] [内存消耗：787.10kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => '1',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------385873735564597086352433',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'c4d77b8d-2d36-4cb8-8593-e5bb54d196eb',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'age' => '18',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T14:34:18+08:00 ] 127.0.0.1 127.0.0.1 POST /banner/1
+[ log ] kk.cn/banner/1 [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：786.60kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => '1',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------833340125491191675352631',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '9c79c9ba-0665-48f6-9720-75de0693e76c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'age' => '18',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T14:35:10+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] kk.cn/banner/1 [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：766.18kb] [文件加载：25]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '160',
+  'content-type' => 'multipart/form-data; boundary=--------------------------652451306536601213325276',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'f639aa8d-0b44-48fe-a03b-e67b3adf6c90',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:20:06+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] kk.cn/ [运行时间：0.382021s][吞吐率：2.62req/s] [内存消耗：934.06kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:20:14+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] kk.cn/banner/1 [运行时间：0.172009s][吞吐率：5.81req/s] [内存消耗：1,057.10kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'ebd9c46c-40ba-48bd-887d-7d5f2445851f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:20:25+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] kk.cn/banner/1 [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：1,057.13kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'd9bdf959-a1e8-434d-9c02-3fba96e4a170',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:20:36+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] kk.cn/ [运行时间：0.110006s][吞吐率：9.09req/s] [内存消耗：933.55kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:20:49+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] kk.cn/ [运行时间：0.150008s][吞吐率：6.67req/s] [内存消耗：933.55kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:21:06+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] kk.cn/banner/1 [运行时间：0.120007s][吞吐率：8.33req/s] [内存消耗：1,057.84kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:21:11+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] kk.cn/banner/1 [运行时间：0.111007s][吞吐率：9.01req/s] [内存消耗：1,058.03kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:21:53+08:00 ] 127.0.0.1 127.0.0.1 GET /?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/?XDEBUG_SESSION_START=16461 [运行时间：0.334019s][吞吐率：2.99req/s] [内存消耗：933.85kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '16461',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:22:04+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.284016s][吞吐率：3.52req/s] [内存消耗：1,057.38kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '0964aae9-d711-4dfd-8edd-5dee7e293031',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:23:27+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.303018s][吞吐率：3.30req/s] [内存消耗：1,057.93kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '8027d967-4853-4b31-92e5-000a184d6671',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:23:50+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.282016s][吞吐率：3.55req/s] [内存消耗：1,057.93kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'c221b158-c47d-4b59-a315-07b46aca1fa9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:24:08+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] kk.cn/banner/1 [运行时间：0.312018s][吞吐率：3.20req/s] [内存消耗：1,058.38kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132; XDEBUG_SESSION=16461',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:24:09+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] kk.cn/banner/1 [运行时间：0.313018s][吞吐率：3.19req/s] [内存消耗：1,058.38kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132; XDEBUG_SESSION=16461',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:24:29+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.290017s][吞吐率：3.45req/s] [内存消耗：1,057.76kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'c1d7d9e3-eac3-4dd5-90ba-1b7ad1b4cef3',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:24:57+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.112007s][吞吐率：8.93req/s] [内存消耗：1,104.35kb] [文件加载：30]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '741e82ec-87e8-48b6-b097-e5f81e23c3cd',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function getError() on a non-object[F:\www\application\api\controller\v1\Banner.php:35]
+
+---------------------------------------------------------------
+[ 2019-01-20T15:25:25+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：1,104.35kb] [文件加载：30]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'd6109977-6fb6-4b25-8220-5f6f26962fa2',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function getError() on a non-object[F:\www\application\api\controller\v1\Banner.php:35]
+
+---------------------------------------------------------------
+[ 2019-01-20T15:26:25+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.276016s][吞吐率：3.62req/s] [内存消耗：1,058.57kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'd6977572-9d47-4bac-b294-6ca268269a2c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:26:40+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.267015s][吞吐率：3.75req/s] [内存消耗：1,058.30kb] [文件加载：26]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '9888fc42-18be-44e0-8fcd-f25707e0e11a',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:30:30+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：953.38kb] [文件加载：29]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '8f2da62a-0e90-4d3d-b295-171b3de2cbc9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\TsetValidate' not found[F:\www\application\api\controller\v1\Banner.php:29]
+
+---------------------------------------------------------------
+[ 2019-01-20T15:31:09+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：953.38kb] [文件加载：29]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '57284955-1562-42eb-baec-caf627591b76',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\TestValidate' not found[F:\www\application\api\controller\v1\Banner.php:29]
+
+---------------------------------------------------------------
+[ 2019-01-20T15:31:21+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.111007s][吞吐率：9.01req/s] [内存消耗：953.38kb] [文件加载：29]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '877a0ec7-aaad-41c8-b42c-c4fb8afc26b4',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\TestValidate' not found[F:\www\application\api\controller\v1\Banner.php:29]
+
+---------------------------------------------------------------
+[ 2019-01-20T15:33:30+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.098005s][吞吐率：10.20req/s] [内存消耗：953.41kb] [文件加载：29]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'c6c1a94b-5674-417a-ab54-f3407dc54eaa',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\TestValidate' not found[F:\www\application\api\controller\v1\Banner.php:28]
+
+---------------------------------------------------------------
+[ 2019-01-20T15:33:56+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：953.41kb] [文件加载：29]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '5bbd788e-71c2-468b-8ba3-c9de997b464d',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\TestValidate' not found[F:\www\application\api\controller\v1\Banner.php:28]
+
+---------------------------------------------------------------
+[ 2019-01-20T15:36:32+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.154009s][吞吐率：6.49req/s] [内存消耗：953.29kb] [文件加载：29]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'c496fc96-6e74-4f74-ab20-b08b7ea74519',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\TestValidate' not found[F:\www\application\api\controller\v1\Banner.php:29]
+
+---------------------------------------------------------------
+[ 2019-01-20T15:37:50+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.270015s][吞吐率：3.70req/s] [内存消耗：1,071.86kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'a780d34e-0f8c-463c-bf95-7ededd3fd1e6',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:38:04+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.280016s][吞吐率：3.57req/s] [内存消耗：1,072.02kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'd7c3c516-409f-4f3b-8313-766192facbc8',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T15:38:15+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=16461
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=16461 [运行时间：0.273015s][吞吐率：3.66req/s] [内存消耗：1,072.04kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'c903efcd-f5dc-46a1-87d4-9a6a88b68db4',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '16461',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:27:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] kk.cn/ [运行时间：0.169010s][吞吐率：5.92req/s] [内存消耗：934.06kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:27:40+08:00 ] 127.0.0.1 127.0.0.1 GET /?XDEBUG_SESSION_START=19718
+[ log ] kk.cn/?XDEBUG_SESSION_START=19718 [运行时间：0.332019s][吞吐率：3.01req/s] [内存消耗：933.85kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '19718',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:27:57+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=19718
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=19718 [运行时间：0.282016s][吞吐率：3.55req/s] [内存消耗：1,072.04kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=16461',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '5b7c3ac9-b919-4972-81d2-e3f4825474bb',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '19718',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:28:08+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/aa?XDEBUG_SESSION_START=19718
+[ log ] kk.cn/banner/aa?XDEBUG_SESSION_START=19718 [运行时间：0.270015s][吞吐率：3.70req/s] [内存消耗：1,072.00kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=19718',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'e79bc589-6515-49f5-9168-5e9ca8140304',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/aa' => '',
+  'XDEBUG_SESSION_START' => '19718',
+  'id' => 'aa',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:28:56+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/aa?XDEBUG_SESSION_START=19718
+[ log ] kk.cn/banner/aa?XDEBUG_SESSION_START=19718 [运行时间：0.294017s][吞吐率：3.40req/s] [内存消耗：1,072.00kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=19718',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '1038972d-93c5-4371-a63f-d2c1dbbaffa3',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/aa' => '',
+  'XDEBUG_SESSION_START' => '19718',
+  'id' => 'aa',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:29:29+08:00 ] 127.0.0.1 127.0.0.1 GET /?XDEBUG_SESSION_START=16204
+[ log ] kk.cn/?XDEBUG_SESSION_START=16204 [运行时间：0.513030s][吞吐率：1.95req/s] [内存消耗：933.95kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132; XDEBUG_SESSION=19718',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '16204',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:30:08+08:00 ] 127.0.0.1 127.0.0.1 GET /?XDEBUG_SESSION_START=11353
+[ log ] kk.cn/?XDEBUG_SESSION_START=11353 [运行时间：0.553032s][吞吐率：1.81req/s] [内存消耗：933.95kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132; XDEBUG_SESSION=16204',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11353',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:30:24+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/aa?XDEBUG_SESSION_START=11353
+[ log ] kk.cn/banner/aa?XDEBUG_SESSION_START=11353 [运行时间：0.286017s][吞吐率：3.50req/s] [内存消耗：1,072.00kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=19718',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '4e4510a5-4b5f-4337-ab02-9835f86e0862',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/aa' => '',
+  'XDEBUG_SESSION_START' => '11353',
+  'id' => 'aa',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:30:55+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11353
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11353 [运行时间：0.268016s][吞吐率：3.73req/s] [内存消耗：1,072.04kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11353',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'ff115b07-f0e2-46a5-a04b-92748f4c64fc',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11353',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:31:10+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] kk.cn/ [运行时间：0.514030s][吞吐率：1.95req/s] [内存消耗：933.59kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132; XDEBUG_SESSION=11353',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:31:16+08:00 ] 127.0.0.1 127.0.0.1 GET /?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/?XDEBUG_SESSION_START=11091 [运行时间：0.499029s][吞吐率：2.00req/s] [内存消耗：933.95kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6712916992; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1545209593,1545442911,1547715132; XDEBUG_SESSION=11353',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3664.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11091',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:31:25+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.296017s][吞吐率：3.38req/s] [内存消耗：1,072.04kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11353',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '98537385-dd9a-4251-8a30-e82aab7fde00',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:31:44+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.283016s][吞吐率：3.53req/s] [内存消耗：1,072.04kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '3e10efe9-3a21-4d6c-bfb9-f56ef8e44945',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:32:59+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.286016s][吞吐率：3.50req/s] [内存消耗：1,073.73kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '852b1b65-f241-4fd4-9342-cf3d70d7ee0f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:33:41+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.291016s][吞吐率：3.44req/s] [内存消耗：1,073.51kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'b2e7e1a3-2af7-4cb5-bb1c-f56673f1d7f5',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:33:52+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.280016s][吞吐率：3.57req/s] [内存消耗：1,073.51kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'be1e84e1-7296-44d2-a5ab-0d160a07e5d6',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:34:00+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/0.1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/0.1?XDEBUG_SESSION_START=11091 [运行时间：0.275016s][吞吐率：3.64req/s] [内存消耗：1,073.52kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'ae139d84-f7c6-4f28-8019-6b0babea34e1',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/0_1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '0.1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:36:10+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/aa?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/aa?XDEBUG_SESSION_START=11091 [运行时间：0.410024s][吞吐率：2.44req/s] [内存消耗：1,073.91kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '149e309e-5491-4b39-9d69-20216282aa1e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/aa' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => 'aa',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:37:33+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/aa?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/aa?XDEBUG_SESSION_START=11091 [运行时间：0.311017s][吞吐率：3.22req/s] [内存消耗：1,073.51kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '8890257f-8c20-4be8-96a1-0a39c8690ce4',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/aa' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => 'aa',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:37:38+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.275016s][吞吐率：3.64req/s] [内存消耗：1,073.51kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '46e8decf-3922-435f-a931-8180c668b9d6',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:39:38+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.304017s][吞吐率：3.29req/s] [内存消耗：1,073.29kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '84d7ce03-84c6-4a98-9869-33d92fa27ec8',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:53:08+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.124008s][吞吐率：8.06req/s] [内存消耗：1,117.41kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '974e04a9-d209-40c9-b932-44486ef3de25',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\api\validate\IDZzs::goCheck()[F:\www\application\api\controller\v1\Banner.php:31]
+
+---------------------------------------------------------------
+[ 2019-01-20T16:53:39+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.279016s][吞吐率：3.58req/s] [内存消耗：1,088.27kb] [文件加载：28]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'deff429f-5c5c-4b47-8925-0472c9f33bc6',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:53:49+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.275016s][吞吐率：3.64req/s] [内存消耗：1,088.33kb] [文件加载：28]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '8e030484-408a-44c8-a6f3-ac56b7e18ebc',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:54:03+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/0.1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/0.1?XDEBUG_SESSION_START=11091 [运行时间：0.120007s][吞吐率：8.33req/s] [内存消耗：1,134.59kb] [文件加载：32]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '88cf7341-0ea6-418d-a402-8b562f79edb9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/0_1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '0.1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\api\validate\IDZzs::error()[F:\www\application\api\validate\BaseValidate.php:24]
+
+---------------------------------------------------------------
+[ 2019-01-20T16:54:30+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/0.1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/0.1?XDEBUG_SESSION_START=11091 [运行时间：0.527030s][吞吐率：1.90req/s] [内存消耗：1,122.30kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '496278c3-955c-4da7-9303-fdba161ff400',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/0_1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '0.1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]id必须是正整数[F:\www\application\api\validate\BaseValidate.php:25]
+
+---------------------------------------------------------------
+[ 2019-01-20T16:55:13+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/0.1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/0.1?XDEBUG_SESSION_START=11091 [运行时间：0.537030s][吞吐率：1.86req/s] [内存消耗：1,122.39kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'f2f84247-65a5-487d-b8d4-c3d9d7588895',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/0_1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '0.1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]id必须是正整数[F:\www\application\api\validate\BaseValidate.php:25]
+
+---------------------------------------------------------------
+[ 2019-01-20T16:56:07+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/0.1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/0.1?XDEBUG_SESSION_START=11091 [运行时间：0.117007s][吞吐率：8.55req/s] [内存消耗：1,134.84kb] [文件加载：32]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '1e547a4f-9968-43ba-a45d-978cf31a7a1d',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/0_1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '0.1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\api\validate\IDZzs::error()[F:\www\application\api\validate\BaseValidate.php:24]
+
+---------------------------------------------------------------
+[ 2019-01-20T16:56:35+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/0.1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/0.1?XDEBUG_SESSION_START=11091 [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：1,134.84kb] [文件加载：32]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '01757330-7ebc-4c7a-a011-d47547a70e40',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/0_1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '0.1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\api\validate\IDZzs::error()[F:\www\application\api\validate\BaseValidate.php:24]
+
+---------------------------------------------------------------
+[ 2019-01-20T16:57:09+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/0.1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/0.1?XDEBUG_SESSION_START=11091 [运行时间：0.562032s][吞吐率：1.78req/s] [内存消耗：1,122.39kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '6b48aeb3-c42e-4b03-98f6-6d81f3dbe5b0',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/0_1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '0.1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]id必须是正整数[F:\www\application\api\validate\BaseValidate.php:25]
+
+---------------------------------------------------------------
+[ 2019-01-20T16:57:26+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.298017s][吞吐率：3.36req/s] [内存消耗：1,088.41kb] [文件加载：28]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '61005a52-d458-47c2-9baa-1ecaf55b6709',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T16:57:32+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/0?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/0?XDEBUG_SESSION_START=11091 [运行时间：0.537030s][吞吐率：1.86req/s] [内存消耗：1,122.36kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'c2d52289-1ad5-46da-9173-83a13bf0aca9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/0' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '0',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]id必须是正整数[F:\www\application\api\validate\BaseValidate.php:25]
+
+---------------------------------------------------------------
+[ 2019-01-20T16:58:09+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/0?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/0?XDEBUG_SESSION_START=11091 [运行时间：0.531030s][吞吐率：1.88req/s] [内存消耗：1,122.38kb] [文件加载：31]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '82363ccb-f986-421a-9e5a-b3fa2cbf8e89',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/0' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '0',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]id必须是正整数[F:\www\application\api\validate\BaseValidate.php:25]
+
+---------------------------------------------------------------
+[ 2019-01-20T16:58:17+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.267015s][吞吐率：3.75req/s] [内存消耗：1,088.41kb] [文件加载：28]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '695d0914-a601-4a3c-8f3f-2ab7c85aa82d',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T17:08:25+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] kk.cn/hello [运行时间：0.317018s][吞吐率：3.15req/s] [内存消耗：937.02kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T17:08:29+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] kk.cn/hello [运行时间：0.193011s][吞吐率：5.18req/s] [内存消耗：936.48kb] [文件加载：27]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T17:08:45+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] kk.cn/banner/1 [运行时间：0.218013s][吞吐率：4.59req/s] [内存消耗：1,088.30kb] [文件加载：28]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T17:08:47+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] kk.cn/banner/1 [运行时间：0.114007s][吞吐率：8.77req/s] [内存消耗：1,088.44kb] [文件加载：28]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'kk.cn',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T17:21:28+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.559032s][吞吐率：1.79req/s] [内存消耗：1,124.77kb] [文件加载：32]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'f4705297-0286-4f7e-9d93-0169dbb68ccf',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\model\Banner[F:\www\thinkphp\library\think\Loader.php:390]
+
+---------------------------------------------------------------
+[ 2019-01-20T17:22:16+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：1,136.95kb] [文件加载：33]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '0a640331-8d68-468d-a148-3612f89beab6',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\api\model\Banner::where()[F:\www\application\api\model\Banner.php:18]
+
+---------------------------------------------------------------
+[ 2019-01-20T17:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.560032s][吞吐率：1.79req/s] [内存消耗：2,044.71kb] [文件加载：37]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'f3fc5a52-94dd-49ed-837f-7d4701aecba7',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023001s ] mysql:dbname=028shop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.004001s ]
+
+---------------------------------------------------------------
+[ 2019-01-20T17:25:45+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.318019s][吞吐率：3.14req/s] [内存消耗：1,991.97kb] [文件加载：36]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '2e366857-78c7-4b20-b1c0-7806f95e3101',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T17:26:01+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.309018s][吞吐率：3.24req/s] [内存消耗：1,991.68kb] [文件加载：36]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => 'a5729625-d310-4234-ab56-381abafced41',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-20T17:26:08+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1?XDEBUG_SESSION_START=11091
+[ log ] kk.cn/banner/1?XDEBUG_SESSION_START=11091 [运行时间：0.318018s][吞吐率：3.14req/s] [内存消耗：1,991.44kb] [文件加载：36]
+[ info ] [ LANG ] F:\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'XDEBUG_SESSION=11091',
+  'host' => 'kk.cn',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'postman-token' => '4cfccbf2-dcac-4f28-9ba9-d83e77c3b571',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'XDEBUG_SESSION_START' => '11091',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\www\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
