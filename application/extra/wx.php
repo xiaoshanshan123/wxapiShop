@@ -6,9 +6,9 @@
 
 return [
 			        // 小程序app_id
-					'app_id'=>'wx235f19d754a40e18',
+					'app_id'=>'wx50ab34067d65a148',
 				    // 小程序app_secret
-					'secret'=>'098aa32adb7e1b640721dd371b1737d3',
+					'secret'=>'319cbff6f72da7378cd29cdf9bcbe14a',
 		    		// 微信使用code换取用户openid及session_key的url地址
-					'login'=>'https://api.weixin.qq.com/sns/jscode2session?appid=APPID&secret=SECRET&js_code=JSCODE&grant_type=authorization_code'
+					'login_url'=>'https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s&grant_type=authorization_code'
 		];

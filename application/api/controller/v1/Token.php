@@ -10,7 +10,8 @@ class Token
 	{
 		(new TokenGet())->goCheck();
 		$usertoken = new UserToken($code);
-		return $usertoken->get();
+		$token = $usertoken->get();
+		return $token;
 
 	}
 
