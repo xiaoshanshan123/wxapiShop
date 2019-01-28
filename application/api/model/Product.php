@@ -23,5 +23,14 @@ class Product extends BaseModel
 
 	public static function getAllbyCateId($categoryId){
 		return self::where('category_id','=',$categoryId)->select();
-	} 
+	}
+
+	public function imgs(){
+
+		return $this->hasMany('ProductImage','product_id','id');
+	}
+
+	public function prope(){
+		return $this->hasMany('ProductProperty','product_id','id');
+	}
 }

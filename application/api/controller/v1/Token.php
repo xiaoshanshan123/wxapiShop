@@ -3,7 +3,7 @@ namespace app\api\controller\v1;
 
 use app\api\validate\TokenGet;
 use app\api\service\UserToken;
-class Token 
+class Token
 {
 
 	public function getToken($code = '')

@@ -41,4 +41,16 @@ class Product{
 
 
 	}
+
+	//通过商品id查询商品的详情
+
+	public function getOne($id){
+
+		(new IDZzs())->goCheck();
+
+		return ProductModel::with('imgs,prope')->find($id);
+
+	}
+
+
 }

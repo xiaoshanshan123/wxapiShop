@@ -26,5 +26,8 @@ Route::get('api/:version/Category/all','api/:version.Category/getCategorys');
 Route::get('api/:version/Product/byCateId','api/:version.Product/getAllInCategory');
 //获取TOken
 Route::get('api/:version/Token/user','api/:version.Token/getToken');
+
+//获取商品详情
+Route::get('api/:version/Product/:id','api/:version.Product/getOne');
 	
 Route::get('index','api/Index/index');

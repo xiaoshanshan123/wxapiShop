@@ -4,5 +4,6 @@
  * config调用
  */
 return [
-	'img_pre' => 'kk.cn/images'
+	'img_pre' => 'kk.cn/images',
+	'cache_time'=> 7200
 ];
