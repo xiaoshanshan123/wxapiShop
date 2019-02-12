@@ -11,5 +11,11 @@ namespace app\api\model;
 
 class ProductImage extends BaseModel
 {
-    protected $hidden = ['id','img_id','delete_time'];
+    protected $hidden = ['id', 'img_id', 'delete_time'];
+
+    public function imgUrl(){
+        return  $this->belongsTo('Image','img_id','id');
+    }
+
 }
+

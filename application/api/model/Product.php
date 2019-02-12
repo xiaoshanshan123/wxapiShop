@@ -33,4 +33,6 @@ class Product extends BaseModel
 	public function prope(){
 		return $this->hasMany('ProductProperty','product_id','id');
 	}
+
+
 }

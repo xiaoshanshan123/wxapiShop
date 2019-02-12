@@ -16,7 +16,7 @@ class Product{
 			$data = ProductModel::getMorePro($count);
 
 		if(!$data){
-			throw new ProductException();
+			throw new Exception();
 		}
 		$product = collection($data);
 
@@ -34,7 +34,7 @@ class Product{
 		$data = ProductModel::getAllbyCateId($id);
 
 		if(!$data){
-			throw new ProductException();
+			throw new Exception();
 		}else{
 			return json($data);
 		}
@@ -48,7 +48,14 @@ class Product{
 
 		(new IDZzs())->goCheck();
 
-		return ProductModel::with('imgs,prope')->find($id);
+		return self::with([
+			'imgs'=>function($query){
+				$query->with(['imgUrl'])
+					->order('order','asc');
+			}
+
+		])
+		->with(['prope'])->find($id);
 
 	}
 
