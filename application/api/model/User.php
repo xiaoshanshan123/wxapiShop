@@ -16,6 +16,11 @@ class User extends BaseModel
 
 			return self::where('openid','=',$openid)->find();
 		}
+		//在没有定义外键一方，定义一对一关联使用hasOne。
+		public function address(){
+
+			return $this->hasOne('UserAddress','user_id','id');
+		}
 
 
 }

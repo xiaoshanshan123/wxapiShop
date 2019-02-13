@@ -63,8 +63,10 @@ class BaseValidate extends Validate
 
     }
 
-
-    protected function isEnpty($value,$rule='',$data ='',$field = ''){
+    /*
+     * 判断为空
+     * */
+    protected function isEmpty($value,$rule='',$data ='',$field = ''){
 
         if(empty($value)){
 
@@ -75,6 +77,40 @@ class BaseValidate extends Validate
             return true;
         }
 
+    }
+
+    /*
+     * 判断手机号是否符合正则
+     * */
+    protected function isMobile($value,$rule='',$data='',$field=''){
+
+        $mobile  = "/^1[34578]\d{9}$/";
+
+        if(!empty($value)){
+           if(preg_match($mobile,$value)){
+               return true;
+           }else{
+               return false;
+           }
+        }
+    }
+    /*
+     * 根据规则过滤参数
+     * */
+
+    public function getDataByRule($array){
+        if(array_key_exists('uid',$array)|
+            array_key_exists('user_id',$array)
+        ){
+            throw new ParameterException([
+                    'msg'=>'参数包含非法参数',
+                ]);
+        }
+        $newArray=[];
+        foreach($this->rule as $k =>$v ){
+           $newArray[$k] =  $array[$k];
+        }
+        return $newArray;
     }
 
 }
